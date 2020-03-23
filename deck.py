@@ -25,8 +25,8 @@ class Deck:
 		contents = contents.split("\n")
 		cards = []
 		for line in contents:
-			card_name, value = line.split(",")
-			new_card = Card(card_name,int(value))
+			card_name, card_type, value = line.split(",")
+			new_card = Card(card_name, card_type, int(value))
 			cards.append(new_card)
 
 		return cards
