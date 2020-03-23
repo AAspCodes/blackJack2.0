@@ -1,52 +1,52 @@
-The Ace of Hearts,11
-The Two of Hearts,2
-The Three of Hearts,3
-The Four of Hearts,4
-The Five of Hearts,5
-The Six of Hearts,6
-The Seven of Hearts,7
-The Eight of Hearts,8
-The Nine of Hearts,9
-The Ten of Hearts,10
-The Jack of Hearts,10
-The Queen of Hearts,10
-The King of Hearts,10
-The Ace of Diamonds,11
-The Two of Diamonds,2
-The Three of Diamonds,3
-The Four of Diamonds,4
-The Five of Diamonds,5
-The Six of Diamonds,6
-The Seven of Diamonds,7
-The Eight of Diamonds,8
-The Nine of Diamonds,9
-The Ten of Diamonds,10
-The Jack of Diamonds,10
-The Queen of Diamonds,10
-The King of Diamonds,10
-The Ace of Clubs,11
-The Two of Clubs,2
-The Three of Clubs,3
-The Four of Clubs,4
-The Five of Clubs,5
-The Six of Clubs,6
-The Seven of Clubs,7
-The Eight of Clubs,8
-The Nine of Clubs,9
-The Ten of Clubs,10
-The Jack of Clubs,10
-The Queen of Clubs,10
-The King of Clubs,10
-The Ace of Spades,11
-The Two of Spades,2
-The Three of Spades,3
-The Four of Spades,4
-The Five of Spades,5
-The Six of Spades,6
-The Seven of Spades,7
-The Eight of Spades,8
-The Nine of Spades,9
-The Ten of Spades,10
-The Jack of Spades,10
-The Queen of Spades,10
-The King of Spades,10
+The Ace of Hearts, Ace, 11
+The Two of Hearts, Two, 2
+The Three of Hearts, Three, 3
+The Four of Hearts, Four, 4
+The Five of Hearts, Five, 5
+The Six of Hearts, Six, 6
+The Seven of Hearts, Seven, 7
+The Eight of Hearts, Eight, 8
+The Nine of Hearts, Nine, 9
+The Ten of Hearts, Ten, 10
+The Jack of Hearts, Jack, 10
+The Queen of Hearts, Queen, 10
+The King of Hearts, King, 10
+The Ace of Diamonds, Ace, 11
+The Two of Diamonds, Two, 2
+The Three of Diamonds, Three, 3
+The Four of Diamonds, Four, 4
+The Five of Diamonds, Five, 5
+The Six of Diamonds, Six, 6
+The Seven of Diamonds, Seven, 7
+The Eight of Diamonds, Eight, 8
+The Nine of Diamonds, Nine, 9
+The Ten of Diamonds, Ten, 10
+The Jack of Diamonds, Jack, 10
+The Queen of Diamonds, Queen, 10
+The King of Diamonds, King, 10
+The Ace of Clubs, Ace, 11
+The Two of Clubs, Two, 2
+The Three of Clubs, Three, 3
+The Four of Clubs, Four, 4
+The Five of Clubs, Five, 5
+The Six of Clubs, Six, 6
+The Seven of Clubs, Seven, 7
+The Eight of Clubs, Eight, 8
+The Nine of Clubs, Nine, 9
+The Ten of Clubs, Ten, 10
+The Jack of Clubs, Jack, 10
+The Queen of Clubs, Queen, 10
+The King of Clubs, King, 10
+The Ace of Spades, Ace, 11
+The Two of Spades, Two, 2
+The Three of Spades, Three, 3
+The Four of Spades, Four, 4
+The Five of Spades, Five, 5
+The Six of Spades, Six, 6
+The Seven of Spades, Seven, 7
+The Eight of Spades, Eight, 8
+The Nine of Spades, Nine, 9
+The Ten of Spades, Ten, 10
+The Jack of Spades, Jack, 10
+The Queen of Spades, Queen, 10
+The King of Spades, King, 10
