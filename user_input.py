@@ -23,3 +23,23 @@ def get_int(min, max, message):
 		except Exception as e :
 			print("That was not a possible input. Try an Integer.")
 
+def get_name(message):
+
+	class NonAlphanumericException(Exception):
+		pass
+
+	while True:
+		try:
+			name = input(message)
+			if name.isalpha():
+				return name.capitalize()
+			elif not name.isalpha():
+				raise NonAlphanumericException
+
+		except NonAlphanumericException:
+			print("Only letters please!")
+		
+		except Exception as e:
+			print("woh, Learn something new!!")
+			print("That's not a name, try again.")
+			print(e.args, e)
