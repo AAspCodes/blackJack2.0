@@ -5,7 +5,7 @@ class Deck:
 
 	@classmethod
 	def get_random_card(cls):
-		return cls._cards.pop(randint(0,len(cls._cards)))
+		return cls._cards.pop(randint(0,len(cls._cards)-1))
 
 	@classmethod
 	def get_number_of_cards(cls):
