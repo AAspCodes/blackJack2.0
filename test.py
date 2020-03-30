@@ -1,5 +1,6 @@
-from black_jack_2.tests import TestCard
 import unittest
+from black_jack_2.tests import TestCard
+
 
 def suite():
     suite = unittest.TestSuite()
