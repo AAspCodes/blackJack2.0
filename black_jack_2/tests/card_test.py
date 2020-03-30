@@ -1,4 +1,4 @@
-from black_jack_2.app.card import Card
+from black_jack_2.app.card import Card, CantSetValueException
 from unittest import TestCase
 
 
@@ -20,12 +20,10 @@ class TestCard(TestCase):
 		self.assertEqual(card.value, 8)
 		self.assertEqual(card.card_type, "Eight")
 
-		try:
+		with self.assertRaises(CantSetValueException):
 			card.value = 2
-		except Exception:
-			self.assertTrue(True)
-		else:
-			self.assertFalse(False)
+		
+
 
 	def test_aces(self):
 		
@@ -34,20 +32,11 @@ class TestCard(TestCase):
 		self.assertEqual(card.name, 'The Ace of Spades')
 		self.assertEqual(card.value, 11)
 		self.assertEqual(card.card_type, 'Ace')
+		
+		card.value = 1
+		self.assertEqual(card.value, 1)
 
-		try:
-			card.value = 1
-		except Exception:
-			self.assertFalse(False)
-		else:
-			self.assertTrue(True)
-			self.assertEquals(card.value, 1)
-
-		try:
+		with self.assertRaises(CantSetValueException):
 			card.value = 11
-		except Exception:
-			self.assertTrue(True)
-		else:
-			self.assertFalse(False)
 			
 
