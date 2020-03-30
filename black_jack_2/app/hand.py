@@ -1,11 +1,11 @@
 import textwrap
 class Hand:
-	def __init__(self, cards=None):
+	def __init__(self, cards=None, bet=0):
 		if cards is None:
 			self.cards = []
 		else:
 			self.cards = cards
-		self.bet = 0
+		self.bet = bet
 
 	@property
 	def value(self):
@@ -32,7 +32,7 @@ class Hand:
 		else:
 			raise Exception("can't split",
 			 				f"number of cards: {self.num_of_cards}",
-			  				f"cards {self.print_cards()}")
+			  				f"cards {self.cards_to_string()}")
 
 	@property
 	def can_split(self):
@@ -43,8 +43,11 @@ class Hand:
 		else:
 			return True
 
-	def __str__(self):
-		return f"{self.print_cards()}, {self.bet}"
+	# def __str__(self):
+	# 	return f"Hand:{self.cards_to_string()}, {self.bet}"
 
-	def print_cards(self):
+	def __repr__(self):
+		return f"Hand:{self.cards_to_string()}, Bet:{self.bet}"
+
+	def cards_to_string(self):
 		return f"{[str(card) for card in self.cards]}"

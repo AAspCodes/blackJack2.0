@@ -9,12 +9,11 @@ def get_int(min, max, message):
 	while True:
 		try:
 			num = int(input(message))
-			if min <= num <= max:
-				return num
-			elif min > num:
-				raise TooLowException()
+				
+			if min > num:
+				raise TooLowException
 			elif max < num:
-				raise TooHighException()
+				raise TooHighException
 
 		except TooLowException:
 			print("That value was too low!")
@@ -22,6 +21,10 @@ def get_int(min, max, message):
 			print("That value was too High!")
 		except Exception as e :
 			print("That was not a possible input. Try an Integer.")
+
+		else:
+			return num
+
 
 def get_name(message):
 
@@ -31,9 +34,7 @@ def get_name(message):
 	while True:
 		try:
 			name = input(message)
-			if name.isalpha():
-				return name.capitalize()
-			elif not name.isalpha():
+			if not name.isalpha():
 				raise NonAlphanumericException
 
 		except NonAlphanumericException:
@@ -43,3 +44,5 @@ def get_name(message):
 			print("woh, Learn something new!!")
 			print("That's not a name, try again.")
 			print(e.args, e)
+		else:
+			return name.capitalize()
