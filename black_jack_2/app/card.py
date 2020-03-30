@@ -1,4 +1,5 @@
 import textwrap
+
 class Card:
 	def __init__(self, name, card_type, value):
 		self._name = name
@@ -19,10 +20,12 @@ class Card:
 
 	@value.setter
 	def value(self, value):
+		
+
 		if self.value == 11 and value == 1:
 			self._value = value
 		else:
-			raise Exception(textwrap.dedent(f"""\
+			raise CantSetValueException(textwrap.dedent(f"""\
 								you can only change the value of a high ace,
 								you tried to change the value of '{self.name}'
 								that has a value of '{self.value}'"""))
@@ -34,3 +37,7 @@ class Card:
 		
 		return (self.card_type == other_card.card_type and
 			 	self.value == other_card.value)
+
+
+class CantSetValueException(Exception):
+		pass
