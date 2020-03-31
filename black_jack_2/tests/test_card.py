@@ -1,15 +1,10 @@
 from black_jack_2.app.card import Card, CantSetValueException
-from unittest import TestCase
+import unittest
 
 
-class TestCard(TestCase):
-	def runTest(self):
-		self.test_eights()
-		self.test_aces()
-
+class TestCard(unittest.TestCase):
 
 	def test_eights(self):
-		
 		
 		card = Card("The Eight of Hearts", "Eight", 8)
 		card2 = Card("The Eight of Hearts", "Eight", 8)
@@ -23,8 +18,6 @@ class TestCard(TestCase):
 		with self.assertRaises(CantSetValueException):
 			card.value = 2
 		
-
-
 	def test_aces(self):
 		
 		card = Card('The Ace of Spades', 'Ace', 11)
