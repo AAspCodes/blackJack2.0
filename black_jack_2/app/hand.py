@@ -1,4 +1,6 @@
 import textwrap
+
+# TODO drawing 2 aces produces 22, implement automatic lowing of one or does it split? hmm
 class Hand:
 	def __init__(self, cards=None, bet=0):
 		if cards is None:
