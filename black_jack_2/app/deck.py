@@ -1,6 +1,7 @@
 from random import randint
 from .card import Card
-cards_file_path = "black_jack_2/assets/cards.txt"
+import json
+cards_file_path = "black_jack_2/assets/cards.json"
 
 class Deck:
 	_cards = []
@@ -14,6 +15,7 @@ class Deck:
 	def get_number_of_cards(cls):
 		return len(cls._cards)
 
+
 	@classmethod
 	def ready_deck(cls,number_of_decks):
 		cls._number_of_decks = number_of_decks
@@ -26,11 +28,11 @@ class Deck:
 	def _load_cards(cls):
 		with open(cards_file_path, "r") as f:
 			contents = f.read()
-		contents = contents.split("\n")
+
+		data = json.loads(contents)
 		cards = []
-		for line in contents:
-			card_name, card_type, value = line.split(",")
-			new_card = Card(card_name, card_type, int(value))
+		for card in data:
+			new_card = Card(card["name"], card["card_type"], int(card["value"]))
 			cards.append(new_card)
 
 		return cards
