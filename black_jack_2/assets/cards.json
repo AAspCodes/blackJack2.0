@@ -1,0 +1,262 @@
+[
+    {
+        "name": "The Ace of Hearts",
+        "card_type": "Ace",
+        "value": "11"
+    },
+    {
+        "name": "The Two of Hearts",
+        "card_type": "Two",
+        "value": "2"
+    },
+    {
+        "name": "The Three of Hearts",
+        "card_type": "Three",
+        "value": "3"
+    },
+    {
+        "name": "The Four of Hearts",
+        "card_type": "Four",
+        "value": "4"
+    },
+    {
+        "name": "The Five of Hearts",
+        "card_type": "Five",
+        "value": "5"
+    },
+    {
+        "name": "The Six of Hearts",
+        "card_type": "Six",
+        "value": "6"
+    },
+    {
+        "name": "The Seven of Hearts",
+        "card_type": "Seven",
+        "value": "7"
+    },
+    {
+        "name": "The Eight of Hearts",
+        "card_type": "Eight",
+        "value": "8"
+    },
+    {
+        "name": "The Nine of Hearts",
+        "card_type": "Nine",
+        "value": "9"
+    },
+    {
+        "name": "The Ten of Hearts",
+        "card_type": "Ten",
+        "value": "10"
+    },
+    {
+        "name": "The Jack of Hearts",
+        "card_type": "Jack",
+        "value": "10"
+    },
+    {
+        "name": "The Queen of Hearts",
+        "card_type": "Queen",
+        "value": "10"
+    },
+    {
+        "name": "The King of Hearts",
+        "card_type": "King",
+        "value": "10"
+    },
+    {
+        "name": "The Ace of Diamonds",
+        "card_type": "Ace",
+        "value": "11"
+    },
+    {
+        "name": "The Two of Diamonds",
+        "card_type": "Two",
+        "value": "2"
+    },
+    {
+        "name": "The Three of Diamonds",
+        "card_type": "Three",
+        "value": "3"
+    },
+    {
+        "name": "The Four of Diamonds",
+        "card_type": "Four",
+        "value": "4"
+    },
+    {
+        "name": "The Five of Diamonds",
+        "card_type": "Five",
+        "value": "5"
+    },
+    {
+        "name": "The Six of Diamonds",
+        "card_type": "Six",
+        "value": "6"
+    },
+    {
+        "name": "The Seven of Diamonds",
+        "card_type": "Seven",
+        "value": "7"
+    },
+    {
+        "name": "The Eight of Diamonds",
+        "card_type": "Eight",
+        "value": "8"
+    },
+    {
+        "name": "The Nine of Diamonds",
+        "card_type": "Nine",
+        "value": "9"
+    },
+    {
+        "name": "The Ten of Diamonds",
+        "card_type": "Ten",
+        "value": "10"
+    },
+    {
+        "name": "The Jack of Diamonds",
+        "card_type": "Jack",
+        "value": "10"
+    },
+    {
+        "name": "The Queen of Diamonds",
+        "card_type": "Queen",
+        "value": "10"
+    },
+    {
+        "name": "The King of Diamonds",
+        "card_type": "King",
+        "value": "10"
+    },
+    {
+        "name": "The Ace of Clubs",
+        "card_type": "Ace",
+        "value": "11"
+    },
+    {
+        "name": "The Two of Clubs",
+        "card_type": "Two",
+        "value": "2"
+    },
+    {
+        "name": "The Three of Clubs",
+        "card_type": "Three",
+        "value": "3"
+    },
+    {
+        "name": "The Four of Clubs",
+        "card_type": "Four",
+        "value": "4"
+    },
+    {
+        "name": "The Five of Clubs",
+        "card_type": "Five",
+        "value": "5"
+    },
+    {
+        "name": "The Six of Clubs",
+        "card_type": "Six",
+        "value": "6"
+    },
+    {
+        "name": "The Seven of Clubs",
+        "card_type": "Seven",
+        "value": "7"
+    },
+    {
+        "name": "The Eight of Clubs",
+        "card_type": "Eight",
+        "value": "8"
+    },
+    {
+        "name": "The Nine of Clubs",
+        "card_type": "Nine",
+        "value": "9"
+    },
+    {
+        "name": "The Ten of Clubs",
+        "card_type": "Ten",
+        "value": "10"
+    },
+    {
+        "name": "The Jack of Clubs",
+        "card_type": "Jack",
+        "value": "10"
+    },
+    {
+        "name": "The Queen of Clubs",
+        "card_type": "Queen",
+        "value": "10"
+    },
+    {
+        "name": "The King of Clubs",
+        "card_type": "King",
+        "value": "10"
+    },
+    {
+        "name": "The Ace of Spades",
+        "card_type": "Ace",
+        "value": "11"
+    },
+    {
+        "name": "The Two of Spades",
+        "card_type": "Two",
+        "value": "2"
+    },
+    {
+        "name": "The Three of Spades",
+        "card_type": "Three",
+        "value": "3"
+    },
+    {
+        "name": "The Four of Spades",
+        "card_type": "Four",
+        "value": "4"
+    },
+    {
+        "name": "The Five of Spades",
+        "card_type": "Five",
+        "value": "5"
+    },
+    {
+        "name": "The Six of Spades",
+        "card_type": "Six",
+        "value": "6"
+    },
+    {
+        "name": "The Seven of Spades",
+        "card_type": "Seven",
+        "value": "7"
+    },
+    {
+        "name": "The Eight of Spades",
+        "card_type": "Eight",
+        "value": "8"
+    },
+    {
+        "name": "The Nine of Spades",
+        "card_type": "Nine",
+        "value": "9"
+    },
+    {
+        "name": "The Ten of Spades",
+        "card_type": "Ten",
+        "value": "10"
+    },
+    {
+        "name": "The Jack of Spades",
+        "card_type": "Jack",
+        "value": "10"
+    },
+    {
+        "name": "The Queen of Spades",
+        "card_type": "Queen",
+        "value": "10"
+    },
+    {
+        "name": "The King of Spades",
+        "card_type": "King",
+        "value": "10"
+    }
+]
